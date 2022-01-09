@@ -1,0 +1,9 @@
+# Config file of SilkTouch2, do not modify for vanilla spawners
+Luck: 30
+Delay: null
+MaxNearbyEntities: null
+MaxSpawnDelay: null
+MinSpawnDelay: null
+RequiredPlayerRange: null
+SpawnCount: null
+SpawnRange: null
