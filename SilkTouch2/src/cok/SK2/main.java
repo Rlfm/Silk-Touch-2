@@ -43,7 +43,7 @@ public class main extends JavaPlugin implements Listener{
 	@EventHandler
 	public void testEnchant(EnchantItemEvent e) {
 
-		// Checking that Silk Touch I is to be added to the item and that the item is not a book
+		// Checking that Silk Touch I is to be added to the item and that the item is not a book 
 		
 		if(e.getEnchantsToAdd().containsKey(Enchantment.SILK_TOUCH) & e.getItem().getType().equals(Material.BOOK)==false) { 
 			int luck = random.nextInt(100);
