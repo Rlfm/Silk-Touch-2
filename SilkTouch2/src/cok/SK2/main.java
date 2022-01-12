@@ -34,7 +34,7 @@ public class main extends JavaPlugin implements Listener{
 		// Retrieves the "Luck" set in the config.yml file
 		
 		ConfigLuck = getConfig().getInt("Luck");
-		getLogger().info("SilkTouch2 Luck : " + ConfigLuck);
+		getLogger().info("SilkTouch2 Luck : " + ConfigLuck+" %");
 		this.saveConfig();
 	}
 
